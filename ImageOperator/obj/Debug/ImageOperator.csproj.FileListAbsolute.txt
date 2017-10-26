@@ -1,0 +1,6 @@
+C:\Users\chenyi\Documents\Visual Studio 2017\Projects\WpfApp10\ImageOperator\bin\Debug\ImageOperator.dll
+C:\Users\chenyi\Documents\Visual Studio 2017\Projects\WpfApp10\ImageOperator\bin\Debug\ImageOperator.pdb
+C:\Users\chenyi\Documents\Visual Studio 2017\Projects\WpfApp10\ImageOperator\bin\Debug\MWArray.dll
+C:\Users\chenyi\Documents\Visual Studio 2017\Projects\WpfApp10\ImageOperator\obj\Debug\ImageOperator.csprojResolveAssemblyReference.cache
+C:\Users\chenyi\Documents\Visual Studio 2017\Projects\WpfApp10\ImageOperator\obj\Debug\ImageOperator.dll
+C:\Users\chenyi\Documents\Visual Studio 2017\Projects\WpfApp10\ImageOperator\obj\Debug\ImageOperator.pdb

@@ -1,0 +1,44 @@
+﻿<Window x:Class="WpfApp10.kaoqin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp10"
+        mc:Ignorable="d"
+        Title="kaoqin" Height="319.307" Width="665.347">
+    <Grid x:Name="winkaoqin" Margin="0,0,-8,0">
+        <DataGrid x:Name="AttaForm" AutoGenerateColumns="False" Margin="10,52,10,10">
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding FingerId}" ClipboardContentBinding="{x:Null}" Header="FingerId" Width="100"/>
+                <DataGridTextColumn Binding="{Binding Name}" ClipboardContentBinding="{x:Null}" Header="Name" Width="100"/>
+                <DataGridTextColumn Binding="{Binding AttantTime}" ClipboardContentBinding="{x:Null}" Header="AttantTime" Width="100"/>
+                <DataGridTextColumn Binding="{Binding AttantNum}" ClipboardContentBinding="{x:Null}" Header="AttantNum" Width="100"/>
+                <DataGridTextColumn Binding="{Binding Type}" ClipboardContentBinding="{x:Null}" Header="Type" Width="100"/>
+                <DataGridTextColumn Binding="{Binding YesOrNo}" ClipboardContentBinding="{x:Null}" Header="YesOrNo" Width="100"/>
+                <DataGridTextColumn Binding="{Binding TimeSpan}" ClipboardContentBinding="{x:Null}" Header="TimeSpan" Width="100"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <ComboBox x:Name="ChooseComboBox" HorizontalAlignment="Left" VerticalAlignment="Top" Width="120">
+            <ComboBoxItem Content="按时间查看" HorizontalAlignment="Left" Width="118" Selected="ComboBoxItem_Selected"/>
+            <ComboBoxItem Content="按员工查看" HorizontalAlignment="Left" Width="118" Selected="ComboBoxItem_Selected_1"/>
+            <ComboBoxItem Content="按打卡类型查看" HorizontalAlignment="Left" Width="118" Selected="ComboBoxItem_Selected_2"/>
+        </ComboBox>
+        <Grid x:Name="TimeChose" Margin="137,0,222,257">
+            <DatePicker x:Name="BeginTimeBox" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.87,0.472" Margin="54,0,0,0"  SelectedDateChanged="BeginTimeBox_SelectedDateChanged" />
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="15" Width="64" Margin="0,4,0,0"><Run Text="起始时间"/><Run Text=":"/></TextBlock>
+            <DatePicker x:Name="EndTimeBox" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.87,0.472" Margin="224,0,0,0"  SelectedDateChanged="EndTimeBox_SelectedDateChanged"/>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="15" Width="64" Margin="170,4,0,0"><Run Text="终止时间"/><Run Text=":"/></TextBlock>
+        </Grid>
+        <ComboBox x:Name="EmpComboBox"  HorizontalAlignment="Left" Margin="137,0,0,0" VerticalAlignment="Top" Width="120">
+        </ComboBox>
+        <ComboBox x:Name="TypeComboBox" HorizontalAlignment="Left" Margin="137,0,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBoxItem Content="Sign_In" HorizontalAlignment="Left" Width="118"/>
+            <ComboBoxItem Content="Sign_Out" HorizontalAlignment="Left" Width="118"/>
+            <ComboBoxItem Content="OverTimeWork" HorizontalAlignment="Left" Width="118"/>
+        </ComboBox>
+        <Button x:Name="Search_Button" Content="查询" HorizontalAlignment="Left" Margin="562,0,0,0" VerticalAlignment="Top" Width="75" Click="Search_Button_Click"/>
+        <CheckBox x:Name="TimeCheckBox" Content="按时间查看" HorizontalAlignment="Left" Margin="10,27,0,0" VerticalAlignment="Top" Unchecked="TimeCheckBox_Unchecked"/>
+        <CheckBox x:Name="EmpCheckBox" Content="按员工查看" HorizontalAlignment="Left" Margin="298,27,0,0" VerticalAlignment="Top" Unchecked="EmpCheckBox_Unchecked" />
+        <CheckBox x:Name="TypeCheckBox" Content="按签到/签退查看" HorizontalAlignment="Left" Margin="443,27,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.267,0" Unchecked="TypeCheckBox_Unchecked" />
+    </Grid>
+</Window>

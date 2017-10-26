@@ -1,0 +1,40 @@
+﻿<Window x:Class="WpfApp10.RegisInfo"
+        xmlns:wfi ="clr-namespace:System.Windows.Forms.Integration;assembly=WindowsFormsIntegration"  
+        xmlns:aforge ="clr-namespace:AForge.Controls;assembly=AForge.Controls"  
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp10"
+        mc:Ignorable="d"
+        Title="RegisInfo" Height="409" Width="752.099">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Height="24" Margin="46,78,0,0" TextWrapping="Wrap" Text="Name: " VerticalAlignment="Top" Width="102" TextAlignment="Right"/>
+        <TextBox x:Name="Name" HorizontalAlignment="Left" Height="24" Margin="184,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Height="24" Margin="46,106,0,0" TextWrapping="Wrap" Text="Age:" VerticalAlignment="Top" Width="102" TextAlignment="Right"/>
+        <TextBox x:Name="Age" HorizontalAlignment="Left" Height="24" Margin="184,106,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" />
+        <TextBlock HorizontalAlignment="Left" Height="24" Margin="46,140,0,0" TextWrapping="Wrap" Text="ID Number:" VerticalAlignment="Top" Width="102" TextAlignment="Right"/>
+        <TextBox x:Name="IdNumber" HorizontalAlignment="Left" Height="24" Margin="184,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="1.015,0.584"/>
+        <TextBlock HorizontalAlignment="Left" Height="24" Margin="46,168,0,0" TextWrapping="Wrap" Text="Birthday:" VerticalAlignment="Top" Width="102" TextAlignment="Right"/>
+        <TextBox x:Name="Birthday" HorizontalAlignment="Left" Height="24" Margin="184,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" GotKeyboardFocus="Birthday_GotKeyboardFocus" LostKeyboardFocus="Birthday_LostKeyboardFocus" />
+        <TextBlock HorizontalAlignment="Left" Height="24" Margin="46,196,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="102" Text="DepatementId:" TextAlignment="Right"/>
+        <TextBox x:Name="DepatementID" HorizontalAlignment="Left" Height="24" Margin="184,196,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="Commit" Content="Commit" HorizontalAlignment="Left" Margin="594,262,0,0" VerticalAlignment="Top" Width="120" Click="Commit_Click" RenderTransformOrigin="1.025,0.53"/>
+        <wfi:WindowsFormsHost Grid.Row="0" Margin="450,47,0,0" Background="{DynamicResource {x:Static SystemColors.ScrollBarBrushKey}}" Height="187" VerticalAlignment="Top" HorizontalAlignment="Left" Width="264">
+            <aforge:VideoSourcePlayer x:Name="sourcePlayer" Width="400" Height="600">
+            </aforge:VideoSourcePlayer>
+        </wfi:WindowsFormsHost>
+        <TextBlock x:Name="Message" HorizontalAlignment="Left" Margin="46,308,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="633" Height="61" FontSize="24"/>
+        <Label x:Name="Format" Content="" HorizontalAlignment="Left" Margin="308,168,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="1.382,1.154"/>
+        <TextBlock HorizontalAlignment="Left" Height="24" Margin="46,47,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="102" TextAlignment="Right"><Run Text="User Type"/><LineBreak/><Run/></TextBlock>
+        <ComboBox x:Name="Combo" HorizontalAlignment="Left" Margin="184,47,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="-1.162,-0.068" Height="24">
+            <ComboBoxItem x:Name="Normal_User" Content="Normal User" HorizontalAlignment="Left" Width="118" Selected="Normal_User_Selected"/>
+            <ComboBoxItem x:Name="Administrator"  Content="Administrator" HorizontalAlignment="Left" Width="118" Selected="Administrator_Selected" />
+        </ComboBox>
+        <TextBlock x:Name="UsernameText" HorizontalAlignment="Left" Height="24" Margin="46,225,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="102" Text="Username" TextAlignment="Right"/>
+        <TextBlock x:Name="PasswordText" HorizontalAlignment="Left" Height="24" Margin="46,254,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="102" TextAlignment="Right"><Run Text="Password"/><Run Text=":"/></TextBlock>
+        <TextBox x:Name="Username" HorizontalAlignment="Left" Height="24" Margin="184,225,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <PasswordBox x:Name="Password" HorizontalAlignment="Left" Margin="184,254,0,0" VerticalAlignment="Top" Width="120" Height="24"/>
+        <Button x:Name="Collect_Button" Content="Collect" HorizontalAlignment="Left" Margin="450,262,0,0" VerticalAlignment="Top" Width="120" Click="Collect_Button_Click" />
+    </Grid>
+</Window>

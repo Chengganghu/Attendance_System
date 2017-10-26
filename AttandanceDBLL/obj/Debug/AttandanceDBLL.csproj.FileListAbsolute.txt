@@ -1,0 +1,76 @@
+C:\Users\chenyi\Documents\Visual Studio 2017\Projects\WpfApp10\AttandanceDBLL\bin\Debug\AttandanceDBLL.dll
+C:\Users\chenyi\Documents\Visual Studio 2017\Projects\WpfApp10\AttandanceDBLL\bin\Debug\AttandanceDBLL.pdb
+C:\Users\chenyi\Documents\Visual Studio 2017\Projects\WpfApp10\AttandanceDBLL\bin\Debug\DBOperate.dll
+C:\Users\chenyi\Documents\Visual Studio 2017\Projects\WpfApp10\AttandanceDBLL\bin\Debug\Model.dll
+C:\Users\chenyi\Documents\Visual Studio 2017\Projects\WpfApp10\AttandanceDBLL\bin\Debug\DBOperate.pdb
+C:\Users\chenyi\Documents\Visual Studio 2017\Projects\WpfApp10\AttandanceDBLL\bin\Debug\Model.pdb
+C:\Users\chenyi\Documents\Visual Studio 2017\Projects\WpfApp10\AttandanceDBLL\obj\Debug\AttandanceDBLL.csprojResolveAssemblyReference.cache
+C:\Users\chenyi\Documents\Visual Studio 2017\Projects\WpfApp10\AttandanceDBLL\obj\Debug\AttandanceDBLL.dll
+C:\Users\chenyi\Documents\Visual Studio 2017\Projects\WpfApp10\AttandanceDBLL\obj\Debug\AttandanceDBLL.pdb
+C:\Users\chenyi\Documents\Visual Studio 2017\Projects\考勤\AttandanceDBLL\bin\Debug\AttandanceDBLL.dll
+C:\Users\chenyi\Documents\Visual Studio 2017\Projects\考勤\AttandanceDBLL\bin\Debug\AttandanceDBLL.pdb
+C:\Users\chenyi\Documents\Visual Studio 2017\Projects\考勤\AttandanceDBLL\bin\Debug\DBOperate.dll
+C:\Users\chenyi\Documents\Visual Studio 2017\Projects\考勤\AttandanceDBLL\bin\Debug\Model.dll
+C:\Users\chenyi\Documents\Visual Studio 2017\Projects\考勤\AttandanceDBLL\bin\Debug\DBOperate.pdb
+C:\Users\chenyi\Documents\Visual Studio 2017\Projects\考勤\AttandanceDBLL\bin\Debug\Model.pdb
+C:\Users\chenyi\Documents\Visual Studio 2017\Projects\考勤\AttandanceDBLL\obj\Debug\AttandanceDBLL.csprojResolveAssemblyReference.cache
+C:\Users\chenyi\Documents\Visual Studio 2017\Projects\考勤\AttandanceDBLL\obj\Debug\AttandanceDBLL.dll
+C:\Users\chenyi\Documents\Visual Studio 2017\Projects\考勤\AttandanceDBLL\obj\Debug\AttandanceDBLL.pdb
+C:\Users\dellsiat\Desktop\考勤2.0\AttandanceDBLL\bin\Debug\AttandanceDBLL.dll
+C:\Users\dellsiat\Desktop\考勤2.0\AttandanceDBLL\bin\Debug\AttandanceDBLL.pdb
+C:\Users\dellsiat\Desktop\考勤2.0\AttandanceDBLL\bin\Debug\DBOperate.dll
+C:\Users\dellsiat\Desktop\考勤2.0\AttandanceDBLL\bin\Debug\Model.dll
+C:\Users\dellsiat\Desktop\考勤2.0\AttandanceDBLL\bin\Debug\DBOperate.pdb
+C:\Users\dellsiat\Desktop\考勤2.0\AttandanceDBLL\bin\Debug\Model.pdb
+C:\Users\dellsiat\Desktop\考勤2.0\AttandanceDBLL\obj\Debug\AttandanceDBLL.csprojResolveAssemblyReference.cache
+C:\Users\dellsiat\Desktop\考勤2.0\AttandanceDBLL\obj\Debug\AttandanceDBLL.csproj.CoreCompileInputs.cache
+C:\Users\dellsiat\Desktop\考勤2.0\AttandanceDBLL\obj\Debug\AttandanceDBLL.dll
+C:\Users\dellsiat\Desktop\考勤2.0\AttandanceDBLL\obj\Debug\AttandanceDBLL.pdb
+C:\Users\pc\Desktop\考勤2.0\AttandanceDBLL\bin\Debug\AttandanceDBLL.dll
+C:\Users\pc\Desktop\考勤2.0\AttandanceDBLL\bin\Debug\AttandanceDBLL.pdb
+C:\Users\pc\Desktop\考勤2.0\AttandanceDBLL\bin\Debug\DBOperate.dll
+C:\Users\pc\Desktop\考勤2.0\AttandanceDBLL\bin\Debug\Model.dll
+C:\Users\pc\Desktop\考勤2.0\AttandanceDBLL\bin\Debug\DBOperate.pdb
+C:\Users\pc\Desktop\考勤2.0\AttandanceDBLL\bin\Debug\Model.pdb
+C:\Users\pc\Desktop\考勤2.0\AttandanceDBLL\obj\Debug\AttandanceDBLL.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\考勤2.0\AttandanceDBLL\obj\Debug\AttandanceDBLL.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\考勤2.0\AttandanceDBLL\obj\Debug\AttandanceDBLL.dll
+C:\Users\pc\Desktop\考勤2.0\AttandanceDBLL\obj\Debug\AttandanceDBLL.pdb
+C:\Users\chenyi\Desktop\考勤2.1\AttandanceDBLL\bin\Debug\AttandanceDBLL.dll
+C:\Users\chenyi\Desktop\考勤2.1\AttandanceDBLL\bin\Debug\AttandanceDBLL.pdb
+C:\Users\chenyi\Desktop\考勤2.1\AttandanceDBLL\bin\Debug\DBOperate.dll
+C:\Users\chenyi\Desktop\考勤2.1\AttandanceDBLL\bin\Debug\Model.dll
+C:\Users\chenyi\Desktop\考勤2.1\AttandanceDBLL\bin\Debug\DBOperate.pdb
+C:\Users\chenyi\Desktop\考勤2.1\AttandanceDBLL\bin\Debug\Model.pdb
+C:\Users\chenyi\Desktop\考勤2.1\AttandanceDBLL\obj\Debug\AttandanceDBLL.csprojResolveAssemblyReference.cache
+C:\Users\chenyi\Desktop\考勤2.1\AttandanceDBLL\obj\Debug\AttandanceDBLL.dll
+C:\Users\chenyi\Desktop\考勤2.1\AttandanceDBLL\obj\Debug\AttandanceDBLL.pdb
+C:\Users\pc\Desktop\考勤2.2\AttandanceDBLL\bin\Debug\AttandanceDBLL.dll
+C:\Users\pc\Desktop\考勤2.2\AttandanceDBLL\bin\Debug\AttandanceDBLL.pdb
+C:\Users\pc\Desktop\考勤2.2\AttandanceDBLL\bin\Debug\DBOperate.dll
+C:\Users\pc\Desktop\考勤2.2\AttandanceDBLL\bin\Debug\Model.dll
+C:\Users\pc\Desktop\考勤2.2\AttandanceDBLL\bin\Debug\DBOperate.pdb
+C:\Users\pc\Desktop\考勤2.2\AttandanceDBLL\bin\Debug\Model.pdb
+C:\Users\pc\Desktop\考勤2.2\AttandanceDBLL\obj\Debug\AttandanceDBLL.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\考勤2.2\AttandanceDBLL\obj\Debug\AttandanceDBLL.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\考勤2.2\AttandanceDBLL\obj\Debug\AttandanceDBLL.dll
+C:\Users\pc\Desktop\考勤2.2\AttandanceDBLL\obj\Debug\AttandanceDBLL.pdb
+C:\Users\pc\Desktop\考勤2.3\AttandanceDBLL\bin\Debug\AttandanceDBLL.dll
+C:\Users\pc\Desktop\考勤2.3\AttandanceDBLL\bin\Debug\AttandanceDBLL.pdb
+C:\Users\pc\Desktop\考勤2.3\AttandanceDBLL\bin\Debug\DBOperate.dll
+C:\Users\pc\Desktop\考勤2.3\AttandanceDBLL\bin\Debug\Model.dll
+C:\Users\pc\Desktop\考勤2.3\AttandanceDBLL\bin\Debug\DBOperate.pdb
+C:\Users\pc\Desktop\考勤2.3\AttandanceDBLL\bin\Debug\Model.pdb
+C:\Users\pc\Desktop\考勤2.3\AttandanceDBLL\obj\Debug\AttandanceDBLL.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\考勤2.3\AttandanceDBLL\obj\Debug\AttandanceDBLL.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\考勤2.3\AttandanceDBLL\obj\Debug\AttandanceDBLL.dll
+C:\Users\pc\Desktop\考勤2.3\AttandanceDBLL\obj\Debug\AttandanceDBLL.pdb
+C:\Users\chenyi\Desktop\考勤2.3\AttandanceDBLL\bin\Debug\AttandanceDBLL.dll
+C:\Users\chenyi\Desktop\考勤2.3\AttandanceDBLL\bin\Debug\AttandanceDBLL.pdb
+C:\Users\chenyi\Desktop\考勤2.3\AttandanceDBLL\bin\Debug\DBOperate.dll
+C:\Users\chenyi\Desktop\考勤2.3\AttandanceDBLL\bin\Debug\Model.dll
+C:\Users\chenyi\Desktop\考勤2.3\AttandanceDBLL\bin\Debug\DBOperate.pdb
+C:\Users\chenyi\Desktop\考勤2.3\AttandanceDBLL\bin\Debug\Model.pdb
+C:\Users\chenyi\Desktop\考勤2.3\AttandanceDBLL\obj\Debug\AttandanceDBLL.csprojResolveAssemblyReference.cache
+C:\Users\chenyi\Desktop\考勤2.3\AttandanceDBLL\obj\Debug\AttandanceDBLL.dll
+C:\Users\chenyi\Desktop\考勤2.3\AttandanceDBLL\obj\Debug\AttandanceDBLL.pdb

@@ -1,0 +1,68 @@
+﻿<Window x:Class="WpfApp10.MainWindow"
+        xmlns:wfi ="clr-namespace:System.Windows.Forms.Integration;assembly=WindowsFormsIntegration"  
+        xmlns:aforge ="clr-namespace:AForge.Controls;assembly=AForge.Controls"  
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp10"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="734.6" Width="1323.5">
+    <Grid Margin="0,-27,-8,-20">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="361*"/>
+            <ColumnDefinition Width="301*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="Resource/背景大1.jpg"/>
+        </Grid.Background>
+        <wfi:WindowsFormsHost Grid.Row="0" Margin="70,230,0,0" Background="{DynamicResource {x:Static SystemColors.ScrollBarBrushKey}}" Height="396" VerticalAlignment="Top" HorizontalAlignment="Left" Width="600">
+            <aforge:VideoSourcePlayer x:Name="sourcePlayer" Width="400" Height="600">
+            </aforge:VideoSourcePlayer>
+        </wfi:WindowsFormsHost>
+        <Button Content="初始化程序" Margin="39,262,363,0" Click="init_Click" FontSize="20" Height="50" VerticalAlignment="Top" Grid.Column="1">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                    <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                    <GradientStop Color="#FFDDDDDD" Offset="0.5"/>
+                    <GradientStop Color="#FF937979" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="显示/隐藏细节" Margin="332,262,70,0" Click="Details_Click" FontSize="20" Grid.Column="1" Height="50" VerticalAlignment="Top">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                    <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                    <GradientStop Color="#FFDDDDDD" Offset="0.5"/>
+                    <GradientStop Color="#FF9B7B7B" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="注册" Margin="39,378,363,0" RenderTransformOrigin="0.055,-0.082" Click="Register_Click" FontSize="20" Grid.Column="1" Height="49" VerticalAlignment="Top">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                    <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                    <GradientStop Color="#FFDDDDDD" Offset="0.5"/>
+                    <GradientStop Color="#FFA48787" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button Content="验证" Margin="332,377,70,0" Click="Verify_Click" FontSize="20" Height="50" VerticalAlignment="Top" Grid.Column="1">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF3F3F3" Offset="0"/>
+                    <GradientStop Color="#FFEBEBEB" Offset="0.5"/>
+                    <GradientStop Color="#FFDDDDDD" Offset="0.5"/>
+                    <GradientStop Color="#FF8B6767" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <TextBlock x:Name="InfoBox" Margin="712,572,41,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="84" FontSize="36" TextAlignment="Center" OpacityMask="Black" Foreground="White" Grid.ColumnSpan="2"/>
+        <Image x:Name="Success_Image" Margin="228,472,274,180" Source="Resource/正确.png" Grid.Column="1"/>
+        <Image x:Name="Fail_Image" Margin="228,472,274,180" Source="Resource/错误.png" Grid.Column="1"/>
+
+    </Grid>
+</Window>

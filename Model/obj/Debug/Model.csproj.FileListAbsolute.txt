@@ -1,0 +1,28 @@
+C:\Users\chenyi\Documents\Visual Studio 2017\Projects\WpfApp10\Model\bin\Debug\Model.dll
+C:\Users\chenyi\Documents\Visual Studio 2017\Projects\WpfApp10\Model\bin\Debug\Model.pdb
+C:\Users\chenyi\Documents\Visual Studio 2017\Projects\WpfApp10\Model\obj\Debug\Model.dll
+C:\Users\chenyi\Documents\Visual Studio 2017\Projects\WpfApp10\Model\obj\Debug\Model.pdb
+C:\Users\chenyi\Documents\Visual Studio 2017\Projects\考勤\Model\bin\Debug\Model.dll
+C:\Users\chenyi\Documents\Visual Studio 2017\Projects\考勤\Model\bin\Debug\Model.pdb
+C:\Users\chenyi\Documents\Visual Studio 2017\Projects\考勤\Model\obj\Debug\Model.dll
+C:\Users\chenyi\Documents\Visual Studio 2017\Projects\考勤\Model\obj\Debug\Model.pdb
+C:\Users\dellsiat\Desktop\考勤2.0\Model\bin\Debug\Model.dll
+C:\Users\dellsiat\Desktop\考勤2.0\Model\bin\Debug\Model.pdb
+C:\Users\dellsiat\Desktop\考勤2.0\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\dellsiat\Desktop\考勤2.0\Model\obj\Debug\Model.dll
+C:\Users\dellsiat\Desktop\考勤2.0\Model\obj\Debug\Model.pdb
+C:\Users\pc\Desktop\考勤2.0\Model\bin\Debug\Model.dll
+C:\Users\pc\Desktop\考勤2.0\Model\bin\Debug\Model.pdb
+C:\Users\pc\Desktop\考勤2.0\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\考勤2.0\Model\obj\Debug\Model.dll
+C:\Users\pc\Desktop\考勤2.0\Model\obj\Debug\Model.pdb
+C:\Users\chenyi\Desktop\考勤2.1\Model\bin\Debug\Model.dll
+C:\Users\chenyi\Desktop\考勤2.1\Model\bin\Debug\Model.pdb
+C:\Users\chenyi\Desktop\考勤2.1\Model\obj\Debug\Model.dll
+C:\Users\chenyi\Desktop\考勤2.1\Model\obj\Debug\Model.pdb
+C:\Users\pc\Desktop\考勤2.3\Model\bin\Debug\Model.dll
+C:\Users\pc\Desktop\考勤2.3\Model\bin\Debug\Model.pdb
+C:\Users\pc\Desktop\考勤2.3\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Users\pc\Desktop\考勤2.3\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\考勤2.3\Model\obj\Debug\Model.dll
+C:\Users\pc\Desktop\考勤2.3\Model\obj\Debug\Model.pdb

@@ -1,0 +1,14 @@
+﻿<Window x:Class="WpfApp10.Setting"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp10"
+        mc:Ignorable="d"
+        Title="Setting" Height="427.723" Width="723.267">
+    <Grid>
+        <Calendar HorizontalAlignment="Left" Margin="509,38,0,0" VerticalAlignment="Top"/>
+        <ProgressBar HorizontalAlignment="Left" Height="41" Margin="132,228,0,0" VerticalAlignment="Top" Width="266" />
+
+    </Grid>
+</Window>
