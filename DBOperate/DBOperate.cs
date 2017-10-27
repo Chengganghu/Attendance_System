@@ -9,7 +9,7 @@ namespace DBOperate
 {
     public class DBOperate
     {
-        static string connsql = "Data Source=172.20.14.45;Initial Catalog=Attandance_System;User Id=sa;Password=siat";
+        static string connsql = "Data Source=172.20.14.105;Initial Catalog=Attandance_System;User Id=sa;Password=siat";
 
         public static bool ExecuteNoReturn(string sql)
         {
